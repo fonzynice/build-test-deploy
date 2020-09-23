@@ -2,6 +2,7 @@ from nornir import InitNornir
 from nornir_napalm.plugins.tasks import napalm_get
 from nornir_netmiko.tasks.netmiko_send_command import netmiko_send_command
 import pprint
+from .test_code import a
 
 nr = InitNornir(config_file="config.yaml")
 r2 = nr.run(
@@ -13,4 +14,6 @@ r = nr.run(
     task=napalm_get,
     getters=["facts"]
 )
-pprint.pprint(r2["rtr1"][0].result)
+pprint.pprint(r["rtr1"][0].result)
+
+num = 100
