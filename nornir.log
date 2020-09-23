@@ -1,4 +1,0 @@
-2020-09-23 08:18:45,646 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route'} on 1 hosts
-2020-09-23 08:18:54,077 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts']} on 1 hosts
-2020-09-23 08:21:14,685 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route'} on 1 hosts
-2020-09-23 08:21:24,973 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts']} on 1 hosts
